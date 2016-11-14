@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle andypike-wordcount",
+        "command": "andypike-wordcount:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "andypike-wordcount",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "andypike-wordcount:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
